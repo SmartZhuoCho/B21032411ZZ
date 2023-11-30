@@ -4,5 +4,5 @@ char * dst =(char *)malloc(l+1);
 for(int i=0;i<=l;i++)
 dst[i]=src[i];
 dst(l)="\0"
-return dst;
+return dst;//B21032411周卓
 }
