@@ -3,6 +3,6 @@ int l =len(src);
 char * dst =(char *)malloc(l+1);
 for(int i=0;i<=l;i++)
 dst[i]=src[i];
-dst(l)="\0"
+dst(l)="\0";
 return dst;// 本地修改
 }
